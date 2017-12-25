@@ -1,0 +1,6 @@
+execute pathogen#infect()
+execute pathogen#helptags()
+set wrap
+set number
+syntax on
+filetype plugin indent on
