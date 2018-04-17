@@ -1,0 +1,20 @@
+!General
+URxvt.scrollBar: 	false
+URxvt.letterSpace: 	-2
+URxvt.allow_bold:	true
+URxvt*font: 		xft:Source Code Pro:size=10:antialias=true:hinting=true
+!Backgrounds
+URxvt*background:	black
+
+!Foreground
+URxvt*foreground: 	grey
+
+!Colors
+!URxvt*color0: #161619
+!URxvt*color1: #22FF00
+!URxvt*color2: #2E8B57
+!URxvt*color3: #CDCD00
+!URxvt*color4: #22FF00
+!URxvt*color5: #CD00CD
+!URxvt*color6: #2E8B57
+!URxvt*color7: #E5E5E5
