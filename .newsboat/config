@@ -29,7 +29,7 @@ notify-xterm yes
 
 # External Player
 browser surf
-player mpv 
+player mpv
 macro m set browser "mpv %u"; open-in-browser ; set browser "w3m %u"
 
 # Text formatting
