@@ -1,2 +1,0 @@
-#!bin/sh
-import -window root /home/nith/screenshot.png
