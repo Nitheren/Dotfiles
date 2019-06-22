@@ -1,9 +1,9 @@
 --------------------------
 -------------------tech-yt
 --------------------------
-https://www.invidio.us/feed/channel/UCkf4VIqu3Acnfzuk3kRIFwA "~YOUTUBE: gotbletu"
-https://www.invidio.us/feed/channel/UC2eYFnH61tmytImy1mTYvhA "~YOUTUBE: Luke Smith"
-https://www.invidio.us/feed/channel/UCXuqSBlHAE6Xw-yeJA0Tunw "~YOUTUBE: Linux Tech Tips"
+https://podsync.net/e_ti-mAam "~YOUTUBE: gotbletu"
+https://podsync.net/ZWbwMmv7m "~YOUTUBE: Luke Smith"
+https://podsync.net/hJwNM0jCs "~YOUTUBE: Linus Tech Tips"
 https://podsync.net/8lOE60hnB "~YOUTUBE: iBSD"
 https://podsync.net/wDcVM8jn2 "~YOUTUBE: Kai Hendry"
 https://podsync.net/nNVh68he2 "~YOUTUBE: DistroTube"
@@ -11,12 +11,13 @@ https://podsync.net/GuUD68jnB "~YOUTUBE: Irishluck"
 https://podsync.net/p4r560jn2 "~YOUTUBE: DasGregor"
 https://podsync.net/rMEPM0heB "~YOUTUBE: Bryan Lunduke"
 https://podsync.net/4NS35Igb0 "~YOUTUBE: Wolfgang's Channel"
+https://podsync.net/DcOOosTz0 "~YOUTUBE: BSDCan"
 --------------------------
 -----------------gaming-yt
 --------------------------
-https://www.invidio.us/feed/channel/UCRC6cNamj9tYAO6h_RXd5xA "~YOUTUBE: RTgames"
-https://www.invidio.us/feed/channel/UClOGLGPOqlAiLmOvXW5lKbw "~YOUTUBE: Mandalor"
-https://www.invidio.us/feed/channel/UCD6VugMZKRhSyzWEWA9W2fg "~YOUTUBE: SsethTzeentach"
+https://podsync.net/5pdtM0TCs "~YOUTUBE: RTgames"
+https://podsync.net/nl3BS_Aa_ "~YOUTUBE: Mandalor"
+https://podsync.net/4BCTSmA7_ "~YOUTUBE: SsethTzeentach"
 https://podsync.net/cNzDN8yE8 "~YOUTUBE: Call Me Kevin"
 https://podsync.net/igtONnNEn "~YOUTUBE: NerdCubed"
 --------------------------
@@ -24,6 +25,8 @@ https://podsync.net/igtONnNEn "~YOUTUBE: NerdCubed"
 --------------------------
 http://lukesmith.xyz/rss.xml "~BLOG: Luke Smith"
 https://www.i-bsd.com/feed.xml "~BLOG: ibsd"
+https://www.undeadly.org/cgi?action=rss
+https://www.undeadly.org/errata/errata.rss
 --------------------------
 ------------------podcasts
 --------------------------
@@ -36,3 +39,10 @@ http://openports.se/rss/www/iridium
 http://openports.se/rss/security/keepassxc
 http://openports.se/rss/devel/jdk/11
 http://openports.se/rss/devel/intellij
+-------------------------
+-------------------github
+-------------------------
+https://github.com/openbsd/src/commits/master.atom
+https://github.com/MitchWeaver/crux/commits/master.atom
+https://github.com/kissx/kiss/commits/master.atom
+https://github.com/MitchWeaver/suckless/commits/master.atom
