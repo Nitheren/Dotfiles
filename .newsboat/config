@@ -30,7 +30,7 @@ notify-xterm yes
 # External Player
 browser surf
 player mpv
-macro m set browser "mpv %u"; open-in-browser ; set browser "w3m %u"
+macro m set browser "baka-mplayer %u"; open-in-browser ; set browser "w3m %u"
 macro p set browser "mpv --no-audio-display %u"; open-in-browser ; set browser "w3m %u"
 # Text formatting
 text-width 72
