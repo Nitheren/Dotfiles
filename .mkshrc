@@ -3,21 +3,21 @@ export EDITOR=vim
 export LANG=en_GB.UTF-8
 export LC_CTYPE=en_GB.UTF-8
 export CLICOLOR=1
-HISTFILE=$HOME/.ksh_history
+HISTFILE=$HOME/.mksh_history
 HISTSIZE=20000
 
 alias ls="ls --color=auto -FHh"
 alias ll='ls -l'
 alias la='ls -lA'
-alias update='doas xbps-install -Suv'
-alias install='doas xbps-install -S '
-alias search='xbps-query -Rs '
-alias remove='doas xbps-remove -R '
+alias update='sudo apt update && sudo apt upgrade'
+alias install='sudo apt install '
+alias search='apt search '
+alias remove='sudo apt remove  '
+alias clean='sudo apt autoremove'
 alias mkdir='mkdir -p'
-alias reboot='doas reboot'
-alias poweroff='doas poweroff'
-alias hibernate='doas zzz' 
-alias n='nnn $HOME/Documents/Notes'
+alias reboot='sudo shutdown -r now'
+alias poweroff='sudo shutdown -P now'
 alias ipp='curl ipinfo.io/ip'
+alias suck='cd /home/nith/git/suckless/'
 
 PS1="$(echo -e "\033[34m~ \033[00m")"

@@ -21,7 +21,6 @@ set number relativenumber
 syntax on
 filetype plugin indent on
 set cursorline
-set tabstop=2
 set backspace=eol,indent,start
 set modelines=0
 set nomodeline
