@@ -48,17 +48,22 @@ case "$-" in
 	alias update='doas pkg_add -u'
 	alias suckless='cd ~/git/suckless/'
 	alias doc='cd /usr/local/share/doc/pkg-readmes/'
-	alias temp='sysctl hw.sensors'
-	screenshot(){
-					imlib2_grab "screenshot.png" 
+	alias pass='PASSWORD_STORE_ENABLE_EXTENSIONS=true pass'
+	temp(){
+		sysctl hw.sensors|
+	   	sed 1q |
+				awk '{print substr($1,23);}'
+		sysctl hw.sensors | 
+			sed -n 22p |
+					awk '{print substr($1,31);}'
 	}
 	dep_count(){
-					pkg_info -f $1 |
-									awk -F : '/^@de/{print$3}' 
+		pkg_info -f $1 |
+			awk -F : '/^@de/{print$3}' 
 					}
 	net_restart(){
-					doas ifconfig iwm0 down
-					doas ifconfig iwm0 up
+		doas ifconfig iwm0 down
+		doas ifconfig iwm0 up
 	}
 ;;
 *)	# non-interactive
