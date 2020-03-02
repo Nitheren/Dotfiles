@@ -52,7 +52,7 @@ map <F6> :-1r !xclip -o -sel clip<CR>
 " file type detection
 autocmd BufRead,BufNewFile *.ms,*.me,*.mom,*.man set filetype=groff
 
-" spell check: 
+" spell check:
 map <F7> :setlocal spell! spelllang=en_gb<CR>
 
 " lightline
