@@ -1,0 +1,14 @@
+sfeedpath="$HOME/.sfeed/feeds"
+
+# list of feeds to fetch:
+feeds() {
+	# feed <name> <feedurl> [basesiteurl] [encoding]
+	feed 'suckless' 'https://suckless.org/atom.xml'
+	feed 'Luke Smith' 'http://lukesmith.xyz/rss.xml'
+	feed 'JCS' 'https://jcs.org/rss'
+	feed 'Dragonfly Digest' 'https://www.dragonflydigest.com/feed'
+	feed "reddit openbsd" "https://old.reddit.com/r/openbsd/.rss"
+	feed "linux kernel" "https://www.kernel.org/feeds/kdist.xml" "https://www.kernel.org"
+	feed "codemadness"	"https://codemadness.org/atom_content.xml"
+	feed "BSDNow"	"https://feeds.fireside.fm/bsdnow/rss"
+}
