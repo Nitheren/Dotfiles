@@ -1,0 +1,10 @@
+#!/bin/sh
+
+cap="$(cat /sys/class/power_supply/BAT0/capacity)"
+
+low="10"
+
+if  [ "$cap" -le "$low" ];  then
+
+				herbe "battery low"
+fi

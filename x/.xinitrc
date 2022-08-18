@@ -1,10 +1,10 @@
-slstatus &
-compton &
+picom --config /home/blaidd/.config/picom/picom.conf &
+hsetroot -solid gray &
 nm-applet &
-sct 3000 21 6 &
-hsetroot -solid "#000000"
-setxkbmap -device 12 -layout gb
-setxkbmap -device 10 -layout us
-while true; do
-  /usr/local/bin/dwm 2> /dev/null
+slstatus &
+setxkbmap -layout gb
+export ENV=$HOME/.kshrc
+xrdb -merge ~/.Xresources
+while true; do 
+	/usr/local/bin/dwm 2> /dev/null
 done

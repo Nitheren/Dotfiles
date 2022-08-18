@@ -1,0 +1,19 @@
+#!/bin/sh
+user="$(whoami)"
+host="$(hostname)"
+os='void'
+shell="$(basename "${SHELL}")"
+uptime="$(uptime -p | sed 's/up //')"
+wm="$(grep "/usr/" ~/.xinitrc | cut -d ' ' -f 1 | cut -d '/' -f 5)"
+
+cat <<EOF
+
+             $user@$host
+    (\(\     -----------
+   j". ..    os: $os 
+   (  . .)   shell: $shell
+   |   ° ¡   uptime: $uptime
+   ¿     ;   wm: $wm 
+   c?".UJ    
+            
+EOF
